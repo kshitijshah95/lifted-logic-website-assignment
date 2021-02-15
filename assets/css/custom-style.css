@@ -1,0 +1,49 @@
+@import '../css/default-style.css';
+
+/* ----------------------------------------- */
+/* Navigation Menu */
+/* ----------------------------------------- */
+nav {
+	grid-column: span 12;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 80px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.nav-logo > img {
+	margin: 20px auto 10px 50px;
+	max-height: 60%;
+}
+.nav-menu {
+	list-style-type: none;
+	flex-grow: 2;
+}
+.nav-menu > li {
+	display: inline;
+	margin: 2px;
+	padding: 10px 20px;
+}
+
+
+header {
+	grid-column: span 12;
+}
+.main-content {
+	grid-column: span 12;
+}
+footer {
+	grid-column: span 12;
+}
+
+@media screen and (max-width: 480px) {
+	.navigation-menu {
+		grid-row: 1;
+		grid-column: span 12;
+	}
+	.main-content {
+		grid-column: span 12;
+	}
+}

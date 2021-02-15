@@ -1,0 +1,62 @@
+/* ------------------------------------------- */
+/* Style Guide - Font */
+/* ------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* ------------------------------------------- */
+/* Style Guide Defaults */
+/* ------------------------------------------- */
+:root {
+	--dark-blue: #001d5d;
+	--light-blue: #b8bfcf;
+	--dark-green: #68c242;
+	--light-green: #d9f0d0;
+	--black: #000000;
+	--white: #ffffff;
+	--dark-grey: #525252;
+	--light-gray: #f6f6f6;
+	--font-regular: 'Karla', sans-serif;
+}
+
+* {
+	color: var(--black);
+	font-family: var(--font-regular);
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.btn {
+	font-weight: 700;
+	line-height: 18px;
+}
+
+h3 {
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 30px;
+}
+
+h1 {
+	font-weight: 700;
+	line-height: 50px;
+	font-size: 40px;
+}
+
+.hero-text {
+	font-weight: 700;
+	line-height: 76px;
+	font-size: 65px;
+	letter-spacing: 0.73px;
+}
